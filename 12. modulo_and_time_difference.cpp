@@ -25,7 +25,7 @@ int main()
         diff[i] = timestamp2[i] - timestamp1[i];
         
         /*this was really hard, because I do not know the exact formula for calculating seconds to hours and more, 
-        so I had to use chatGPT for help, and yes I feel guilty.
+        so I had to use chatGPT for the code below, and yes I feel guilty.
         */
         dayRes[i] = diff[i] / 86400;  // 86400 seconds in a day
         hourRes[i] = (diff[i] % 86400) / 3600;
