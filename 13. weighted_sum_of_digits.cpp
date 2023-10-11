@@ -15,7 +15,7 @@ int mySolver(int num){
         num /= 10;                      //divide the number by 10 to get the next digit
     }
 
-    reverse(digits.begin(), digits.end());        //reverse the array, because I stored the number frorm right to left
+    reverse(digits.begin(), digits.end());        //reverse the array, because I stored the number from right to left
 
     int arrSave[100] = {0};                 //array to store the sum of the digits
 
@@ -33,23 +33,20 @@ int mySolver(int num){
 int main()
 {
     int size;
-    
+
     cin>>size;
-    
+
     int array1[size];
     int arrSave2[9999] = {0};
-    
+
     for(int o=0;o<size;o++){
         cin>>array1[o];
         arrSave2[o] += mySolver(array1[o]);
     }
-    
+
     for(int l=0;l<size;l++){
         cout<<arrSave2[l]<<" ";
     }
-    
-    
-    
 
     return 0;
 }
