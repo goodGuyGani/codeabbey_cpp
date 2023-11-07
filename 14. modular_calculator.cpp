@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-//still not done.
+//how the fck is this wrong, I dont fcking know, help me, I suck so bad.
 using namespace std;
 
 int main()
