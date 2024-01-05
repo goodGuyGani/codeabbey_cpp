@@ -1,3 +1,4 @@
+//https://www.codeabbey.com/index/task_view/triangles
 #include <iostream>
 #include <algorithm>
 

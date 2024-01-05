@@ -1,3 +1,4 @@
+//https://www.codeabbey.com/index/task_view/linear-function
 #include <iostream>
 
 using namespace std;

@@ -1,3 +1,4 @@
+//https://www.codeabbey.com/index/task_view/arithmetic-progression
 #include <iostream>
 #include <cmath>
 

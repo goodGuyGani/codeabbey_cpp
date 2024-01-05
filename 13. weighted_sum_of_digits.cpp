@@ -1,3 +1,4 @@
+https://www.codeabbey.com/index/task_view/weighted-sum-of-digits
 #include <iostream>
 #include <string>
 #include <vector>
